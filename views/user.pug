@@ -1,0 +1,13 @@
+extends layout
+
+block layout-content
+  div.View.UserView
+    h1.Banner Welcome, #{userProfile.nickname}!
+    div.Message
+      div.Title
+        h3 We're Coming Soon!
+        h1 Stay Tuned
+
+    div.NavButtons
+      a(href="/logout")
+        div.NavButton Exit
